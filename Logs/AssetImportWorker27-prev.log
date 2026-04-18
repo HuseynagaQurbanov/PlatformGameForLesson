@@ -1,0 +1,1485 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.1f1-f56f53296c2c' branch; Version is '6000.3.1f1 (37142da19a94) revision 3609645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16200 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huseyn" at "2026-04-17T19:31:36.76401Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-17T19:31:36Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker27
+-projectPath
+C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson
+-logFile
+Logs/AssetImportWorker27.log
+-srvPort
+52413
+-licensingIpc
+LicenseClient-Huseyn
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson
+C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [25552]  Target information:
+
+Player connection [25552]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3283095182 [EditorId] 3283095182 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P8DN92Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25552]  * "[IP] 192.168.0.200 [Port] 0 [Flags] 2 [Guid] 3283095182 [EditorId] 3283095182 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P8DN92Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.1f1 (37142da19a94)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              0f8916f5cba24edb995e63162b9a8473
+  Correlation Id:          b6c0715d3a820be36b2f7da351ade35c
+  External correlation Id: 8519944692445348405
+  Machine Id:              tv/gQBm3jDMfnTwrqsG2ELGBXbM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Huseyn" (connect: 0.00s, validation: 0.00s, handshake: 1.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huseyn-notifications" at "2026-04-17T19:31:37.8983878Z"
+[Licensing::Module] Licensing Background thread has ended after 1.13s
+[Licensing::Module] Licensing is initialized (took 0.15s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966791570336-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.154694 seconds.
+- Loaded All Assemblies, in  0.640 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 271 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1406ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (715ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (369ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.997 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.934 seconds
+Domain Reload Profiling: 1922ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (669ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (767ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6876 unused Assets / (5.2 MB). Loaded Objects now: 7711.
+Memory consumption went from 153.5 MB to 148.3 MB.
+Total: 13.228200 ms (FindLiveObjects: 0.786400 ms CreateObjectMapping: 0.661400 ms MarkObjects: 8.127400 ms  DeleteObjects: 3.651800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27113.012282 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00016.png
+  artifactKey: Guid(d71a85817f3dcc34ebd4b72e60d23b33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00016.png using Guid(d71a85817f3dcc34ebd4b72e60d23b33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f82c27df43c0ce0b9e2f44a41907d01') in 0.1638799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00040.png
+  artifactKey: Guid(c10a9cd08c93ef9428255116b8222fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00040.png using Guid(c10a9cd08c93ef9428255116b8222fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92a6f1691325caf8c581748a5afb9e58') in 0.0168834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00018.png
+  artifactKey: Guid(eb0b133b4a48ae84d9c0d696e1aba51c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00018.png using Guid(eb0b133b4a48ae84d9c0d696e1aba51c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16e79c4828280be1c8cd21295f9c68f3') in 0.0276927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00005.png
+  artifactKey: Guid(2d42a10bd0a5be74394937beb4893b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00005.png using Guid(2d42a10bd0a5be74394937beb4893b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0032af3814f8209bd1b71d7f9178379') in 0.0199198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00032.png
+  artifactKey: Guid(549487dec3cadb7459b84a6639172eb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00032.png using Guid(549487dec3cadb7459b84a6639172eb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2847313855e9438169c29b6eb9c24261') in 0.0191159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00063.png
+  artifactKey: Guid(61b964e6b1f99e8448df404ec41f0d25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00063.png using Guid(61b964e6b1f99e8448df404ec41f0d25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1400e7899decffe8031bc59f818a0e19') in 0.0194953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00016.png
+  artifactKey: Guid(aad9a1b64d4d3794db8a1d2f2d9df21f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00016.png using Guid(aad9a1b64d4d3794db8a1d2f2d9df21f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a652cd3f2905c892da1949213348b3bf') in 0.0187373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00011.png
+  artifactKey: Guid(7c95c36e40d3f774d9d143dece4571ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00011.png using Guid(7c95c36e40d3f774d9d143dece4571ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6691606f9219fc958a3159e05bdab3fa') in 0.0176304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00081.png
+  artifactKey: Guid(ff054f0dd05bc5346a11798c59909880) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00081.png using Guid(ff054f0dd05bc5346a11798c59909880) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbf69c3b03a954209f8bae85b9038b47') in 0.0189874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00069.png
+  artifactKey: Guid(867e9e5604c9011409c9459be4ac4244) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00069.png using Guid(867e9e5604c9011409c9459be4ac4244) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afd247deb712366162e5a6d70d29c61c') in 0.0192734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00019.png
+  artifactKey: Guid(9db2e923c6283dd43bdd4d461ba9658b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00019.png using Guid(9db2e923c6283dd43bdd4d461ba9658b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ffd5f4db98e8d26cf91173a39161c6c') in 0.0167947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00016.png
+  artifactKey: Guid(e91eb780e2409784f8e60f98d2f58eb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00016.png using Guid(e91eb780e2409784f8e60f98d2f58eb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '678c39e71f8f2b8f81af302b3bce7ffb') in 0.01635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5/Plant5_00057.png
+  artifactKey: Guid(21aa6a229f966d849b9cdd4b2ec0d42b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5/Plant5_00057.png using Guid(21aa6a229f966d849b9cdd4b2ec0d42b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24a0fc10cc91c3c5dd9e490e4992e09c') in 0.0169197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00082.png
+  artifactKey: Guid(676563c3e91179d4caeffbe1cbaa3797) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00082.png using Guid(676563c3e91179d4caeffbe1cbaa3797) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ea9154563f40e01922cdf779c8fc7be') in 0.0187844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00042.png
+  artifactKey: Guid(1bd73b28934ba2f49ace1e421e37185e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00042.png using Guid(1bd73b28934ba2f49ace1e421e37185e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc28e22b7738217cc5034505a5efcb76') in 0.0175135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00022.png
+  artifactKey: Guid(8cfa45f020131fc45b38eb6d62104d94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00022.png using Guid(8cfa45f020131fc45b38eb6d62104d94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3f4bcfbf79d3c99a4026f4c0c16b723') in 0.0171036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5/Plant5_00047.png
+  artifactKey: Guid(4ce58f19693781547889f9cd4ca10536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5/Plant5_00047.png using Guid(4ce58f19693781547889f9cd4ca10536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '761dc1e52d1c3a5a3ea00c9e2547cf3c') in 0.017234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00073.png
+  artifactKey: Guid(02bd1b8b2349ebb40bcf99cdce0f5be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00073.png using Guid(02bd1b8b2349ebb40bcf99cdce0f5be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc596a2258c6ced36d453c12f0d3d5f3') in 0.0192227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00022.png
+  artifactKey: Guid(da77f82c5012c82479ef358a4a6f6b79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00022.png using Guid(da77f82c5012c82479ef358a4a6f6b79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6cbd0304affe6141c56bcdb74667e46') in 0.0167447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00038.png
+  artifactKey: Guid(0bd9fa65bb5487545ac14aa6671ea296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00038.png using Guid(0bd9fa65bb5487545ac14aa6671ea296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c863344b043ee4d1a079205136722cc7') in 0.0182343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00030.png
+  artifactKey: Guid(e9bf029175aba3e409c9f18225d01351) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00030.png using Guid(e9bf029175aba3e409c9f18225d01351) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2bd5acd9a0489cd8c637ab51bedcd3b') in 0.0177566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00031.png
+  artifactKey: Guid(6e394735752625d4a918521ba1370991) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00031.png using Guid(6e394735752625d4a918521ba1370991) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8a6881485184207d9eccd908ac285c9') in 0.0196066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00013.png
+  artifactKey: Guid(f24fb9e65644e0b4e84fe3ec27760771) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00013.png using Guid(f24fb9e65644e0b4e84fe3ec27760771) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '711a45f57742ef1ef1e731a93d608e92') in 0.0183867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Plant Animations/PlantJump/JumpPlant_00012.png
+  artifactKey: Guid(54662fd370ee64d44b576ce74f41c885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/PlantJump/JumpPlant_00012.png using Guid(54662fd370ee64d44b576ce74f41c885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe0f7dd78ee3f35cf7a282cc2a910cfd') in 0.0172439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00080.png
+  artifactKey: Guid(9581b186a89a22641bec727e43a164ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00080.png using Guid(9581b186a89a22641bec727e43a164ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68fadf24b2e6e6e8d2b46b8501b2f832') in 0.0201658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Plant Animations
+  artifactKey: Guid(36539c73407622e48ae9a42984e4c3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations using Guid(36539c73407622e48ae9a42984e4c3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b13cf98e767bb8bea854d30d1574d54e') in 0.0007608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00055.png
+  artifactKey: Guid(16418f96fdd2bd2459b9a014264c740e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00055.png using Guid(16418f96fdd2bd2459b9a014264c740e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70b5f52e9a722e3d6eb4f3366ee88b8f') in 0.0179442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00051.png
+  artifactKey: Guid(08e4aad749c07724d8bedb04d6c6dba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00051.png using Guid(08e4aad749c07724d8bedb04d6c6dba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '354a3ca6cb9897eb0cc2e2212c9e564b') in 0.0191805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5
+  artifactKey: Guid(760bcdaa416340b4c822e9e014a129a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5 using Guid(760bcdaa416340b4c822e9e014a129a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '640ced1844caba811fabafdceae44f79') in 0.013212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00044.png
+  artifactKey: Guid(3d61f390193b09945b357727416b1057) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00044.png using Guid(3d61f390193b09945b357727416b1057) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db58d0d21a343f18c96c2d2bfdb495d3') in 0.0200373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00025.png
+  artifactKey: Guid(eb24f3d9ffe211d4797e0f4c9b8385b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00025.png using Guid(eb24f3d9ffe211d4797e0f4c9b8385b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a252666b7f12f0e98e5b672e75930b6') in 0.0204686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00000.png
+  artifactKey: Guid(297fd060cc5796446b5b802ed4c48cf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00000.png using Guid(297fd060cc5796446b5b802ed4c48cf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20aba2335c3c8b52e52183a7b7941183') in 0.0204954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00046.png
+  artifactKey: Guid(bc354db541f6d2b408449ab2965e723b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00046.png using Guid(bc354db541f6d2b408449ab2965e723b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1a2b66c465fc35c20826da1922e4bb5') in 0.0209236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00017.png
+  artifactKey: Guid(3f0ee2305c79711489645fdf1e40f65c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00017.png using Guid(3f0ee2305c79711489645fdf1e40f65c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6623f8937762a28afb55e0af61dbc2d9') in 0.0163321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00013.png
+  artifactKey: Guid(b9b55cc2dbbe4de4399e425fed0f3add) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00013.png using Guid(b9b55cc2dbbe4de4399e425fed0f3add) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a869675ae46634ab1a2d23a33f6c7002') in 0.0272315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00034.png
+  artifactKey: Guid(cce2a298d1a02a34a820b6b406dec081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00034.png using Guid(cce2a298d1a02a34a820b6b406dec081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72b60f47a79a3591a79a8aad375b1415') in 0.0182626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00015.png
+  artifactKey: Guid(93cc5319297d6e74a820f6cfdf7ce623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00015.png using Guid(93cc5319297d6e74a820f6cfdf7ce623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e036a65a4711d7422150b6a4a8edc665') in 0.0179957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00077.png
+  artifactKey: Guid(8ae0d7f68787c734f92d52222afa5983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00077.png using Guid(8ae0d7f68787c734f92d52222afa5983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c3d232eba49c0595cb9c31d935505b6') in 0.0192691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00054.png
+  artifactKey: Guid(54042cfc22e321b4bb4dca84abc31041) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00054.png using Guid(54042cfc22e321b4bb4dca84abc31041) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '331583a5b185a7d5a4c868b938dc4ba9') in 0.0210837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00022.png
+  artifactKey: Guid(b57ce848cf67ddf45838699695586119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00022.png using Guid(b57ce848cf67ddf45838699695586119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccbcc5434cedf62e2e7af890d85eb071') in 0.0164975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00025.png
+  artifactKey: Guid(d0ae0ead5e2fc8047bc7506e36bd0bdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00025.png using Guid(d0ae0ead5e2fc8047bc7506e36bd0bdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65ad392068650f12cbde786b0a73071b') in 0.0168916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00053.png
+  artifactKey: Guid(3c7f2ff28d9f9eb43b4e50e11807fb99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00053.png using Guid(3c7f2ff28d9f9eb43b4e50e11807fb99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eaafa039ab0410e2f0655e0ce651c904') in 0.0194491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00021.png
+  artifactKey: Guid(b9d859ea90e7b6c4e96407641d854b97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00021.png using Guid(b9d859ea90e7b6c4e96407641d854b97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a87507c03835ec59d1d6857002224fa1') in 0.0198434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00053.png
+  artifactKey: Guid(e9026be45167f354f96517feae9af916) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00053.png using Guid(e9026be45167f354f96517feae9af916) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d9854005d0113e09b20815b84d3ba64') in 0.016855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00050.png
+  artifactKey: Guid(410de5993cee7254c803af26a176c3fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00050.png using Guid(410de5993cee7254c803af26a176c3fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b17297932ce7872c29d56b2f37f8a098') in 0.0197631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00070.png
+  artifactKey: Guid(bb38bad47aa2b7a42be5d9b18cc03694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00070.png using Guid(bb38bad47aa2b7a42be5d9b18cc03694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '782a48353ad60066d63d917f5ac0a80a') in 0.0154821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00048.png
+  artifactKey: Guid(90a654b3d270e324f819312bd3bdd3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00048.png using Guid(90a654b3d270e324f819312bd3bdd3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81c8558439c57b33b57d7f449625368e') in 0.0871651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00032.png
+  artifactKey: Guid(e875c5f1f555f7b49a54b3bc7cdeffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00032.png using Guid(e875c5f1f555f7b49a54b3bc7cdeffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece0bd0913d367a897acf0bdb3d2f531') in 0.0217873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00040.png
+  artifactKey: Guid(3f39c3bf42ee43b4b819c48c9095cdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00040.png using Guid(3f39c3bf42ee43b4b819c48c9095cdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b75d6a75aacc3a4ab54e9b4808b35a27') in 0.0209275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00042.png
+  artifactKey: Guid(e8a498929a5dcf640803d05cbaf0eba4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00042.png using Guid(e8a498929a5dcf640803d05cbaf0eba4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f0ac8c2a70c7b3d3cd663a020924f04') in 0.0180741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00016.png
+  artifactKey: Guid(ffb1bd45e657ab6448f216a1ca329231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00016.png using Guid(ffb1bd45e657ab6448f216a1ca329231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31749d7824647a7269b93fc9225c0ade') in 0.0175189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00013.png
+  artifactKey: Guid(11a6e70e76b8fe24ebede79b6fe71279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00013.png using Guid(11a6e70e76b8fe24ebede79b6fe71279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a26df9fa69167de1b4e2942ab8fbf84') in 0.0162107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00009.png
+  artifactKey: Guid(d5d2a4484f664eb4fb19c83442537cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00009.png using Guid(d5d2a4484f664eb4fb19c83442537cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1121a9406d35ff42da415d52caa1f188') in 0.021674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00044.png
+  artifactKey: Guid(3d61f390193b09945b357727416b1057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00044.png using Guid(3d61f390193b09945b357727416b1057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae36628c59014e222233b5bd0d22b9c4') in 0.0212207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00048.png
+  artifactKey: Guid(f8f0ed3fad479b642a283dfadc4abf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00048.png using Guid(f8f0ed3fad479b642a283dfadc4abf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67b687c53e2f88fdf495c97ddc4dd029') in 0.0279455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00028.png
+  artifactKey: Guid(ea816a00a7d816c4facf53e0fe3263d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00028.png using Guid(ea816a00a7d816c4facf53e0fe3263d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c3ac9da74524a77eed34a476b6e3eb9') in 0.0196156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00000.png
+  artifactKey: Guid(297fd060cc5796446b5b802ed4c48cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00000.png using Guid(297fd060cc5796446b5b802ed4c48cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849020a1e71591ea48fc6f8f75c971e6') in 0.0207775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00013.png
+  artifactKey: Guid(c03a9fb1b0b2a8047af0089f4c10d986) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00013.png using Guid(c03a9fb1b0b2a8047af0089f4c10d986) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5983d96b4990edf4069726a48a0a4e53') in 0.0173502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00005.png
+  artifactKey: Guid(d431fe6e222640d44972a175e7a35922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00005.png using Guid(d431fe6e222640d44972a175e7a35922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e31c9e3e7ba96acfa683e9a947b141f2') in 0.0186182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00040.png
+  artifactKey: Guid(665ff2f342a67c74e9aa495508088344) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00040.png using Guid(665ff2f342a67c74e9aa495508088344) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '944a03326bf5562d2b2ae8073fcc45b1') in 0.0181255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00034.png
+  artifactKey: Guid(5e1ec48a86c1df646aa7d5e530385ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00034.png using Guid(5e1ec48a86c1df646aa7d5e530385ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '544b47d206e609859425e374416012b4') in 0.0224974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00019.png
+  artifactKey: Guid(bfb3aa08ff87968438925f2f5250ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00019.png using Guid(bfb3aa08ff87968438925f2f5250ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b0cd26e05169b290f7587d25438b2f9') in 0.0209879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00017.png
+  artifactKey: Guid(39675b5f96be6284a93194c4a3ebde14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00017.png using Guid(39675b5f96be6284a93194c4a3ebde14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74e690280b4744756c9d8db5c34a24c5') in 0.0193291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00021.png
+  artifactKey: Guid(b9d859ea90e7b6c4e96407641d854b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00021.png using Guid(b9d859ea90e7b6c4e96407641d854b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f2654e908eaf62ab320a804de2683f') in 0.0189182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00033.png
+  artifactKey: Guid(1acd8cbd65c2ea140a5a3f669455e12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00033.png using Guid(1acd8cbd65c2ea140a5a3f669455e12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f9abb929fd7b9996029a829a57c8145') in 0.0200548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00071.png
+  artifactKey: Guid(0c258549ca15fb14eacd431ab20ff7b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00071.png using Guid(0c258549ca15fb14eacd431ab20ff7b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ddaf28721bbdfb98a6cf612917eea78') in 0.0193957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00006.png
+  artifactKey: Guid(5652685af0c4c6e41b55b9884cb13101) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00006.png using Guid(5652685af0c4c6e41b55b9884cb13101) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a753e825dee0cf3edde3a27b7337df28') in 0.0167284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00033.png
+  artifactKey: Guid(49a8a3d8d25d1a348b38d88f6f7ef2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00033.png using Guid(49a8a3d8d25d1a348b38d88f6f7ef2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a545d39ec3a42b788f90389cabc1237c') in 0.0181666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00020.png
+  artifactKey: Guid(65c7ed0ab526e4648900bc8b9c46a930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00020.png using Guid(65c7ed0ab526e4648900bc8b9c46a930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c8bfabc007fda0dffb0b635e8ee288a') in 0.019374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00054.png
+  artifactKey: Guid(e641e3182c60d7b4a99dd1d5212d57c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00054.png using Guid(e641e3182c60d7b4a99dd1d5212d57c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cba62b1b60480abb760f637a17caf1d3') in 0.0187762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00013.png
+  artifactKey: Guid(647e672a5ce72dc49a9dcdbd425e8731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00013.png using Guid(647e672a5ce72dc49a9dcdbd425e8731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8b58be123fa1e74281ef0e0a9afd545') in 0.0194649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00006.png
+  artifactKey: Guid(acfeb2cfa1fa8ae44b680bb3c60a6ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00006.png using Guid(acfeb2cfa1fa8ae44b680bb3c60a6ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1df6635a2c4935469a4732387161e457') in 0.0194172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5/Plant5_00059.png
+  artifactKey: Guid(82163f3ece20032409f8ead4f1703787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5/Plant5_00059.png using Guid(82163f3ece20032409f8ead4f1703787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b384b2b000a34d4b732460d51a1c76dd') in 0.0203541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00032.png
+  artifactKey: Guid(1e2d13a8e70159c4c9d192cd69349ebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00032.png using Guid(1e2d13a8e70159c4c9d192cd69349ebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdfdc35e0533742ee35334bbe36f5021') in 0.0219027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00052.png
+  artifactKey: Guid(f4bfbec5e4cb0964382979e391ea6982) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00052.png using Guid(f4bfbec5e4cb0964382979e391ea6982) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a33dcb9ee0f49b68271fa1c0942a52a') in 0.0209759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00043.png
+  artifactKey: Guid(91c221c4a06c1294a8cf4ddac45591b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00043.png using Guid(91c221c4a06c1294a8cf4ddac45591b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f75dc001a60f6fac38100505a48780d9') in 0.0198194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00000.png
+  artifactKey: Guid(1216d62a5fa63cf4b8f0deb3717109b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00000.png using Guid(1216d62a5fa63cf4b8f0deb3717109b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08ce24b4d24a13fb495dff999aa47b5d') in 0.0180106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00029.png
+  artifactKey: Guid(4b90ce8c6ff9f664e8c29c0fb4ac7e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00029.png using Guid(4b90ce8c6ff9f664e8c29c0fb4ac7e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7d21126734d7ecaa69206ab4b75dc3a') in 0.0246269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00010.png
+  artifactKey: Guid(cf3c2332836ec0847adb01a023ce0087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00010.png using Guid(cf3c2332836ec0847adb01a023ce0087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbb8d5c599c82c9fde905f9f27f7ac26') in 0.0250059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00014.png
+  artifactKey: Guid(f86e65f33245b7c449fe397caf08ea74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00014.png using Guid(f86e65f33245b7c449fe397caf08ea74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7fed8913ca1c85f2fe108bdb3bba3dd') in 0.0180236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00088.png
+  artifactKey: Guid(6fd062234b4b3254f87e857051797473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00088.png using Guid(6fd062234b4b3254f87e857051797473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23d98cc76098bc8777a6ce3634e846c0') in 0.0194349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00027.png
+  artifactKey: Guid(d4a43c53f13d3bc428d77e618cca1491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00027.png using Guid(d4a43c53f13d3bc428d77e618cca1491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d153e63f356584e9a2bbd4d0f910549') in 0.0190204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00014.png
+  artifactKey: Guid(58603296e5754bc4884fcd22a5cf8a0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00014.png using Guid(58603296e5754bc4884fcd22a5cf8a0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9ac65ea9c40b7a6566ceb00660128f4') in 0.0176782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00082.png
+  artifactKey: Guid(1f6bb3140db56f545a5f340c0e4fd50e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00082.png using Guid(1f6bb3140db56f545a5f340c0e4fd50e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdf64df59eb1b0de92e6477ae912d65f') in 0.0276099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00039.png
+  artifactKey: Guid(f9b687248f9015748a5fc5875d7d7a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00039.png using Guid(f9b687248f9015748a5fc5875d7d7a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8f9a874fcde1ab2547eccf0387dbce5') in 0.0208632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00027.png
+  artifactKey: Guid(403834f329397604b914f0e9f5075539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00027.png using Guid(403834f329397604b914f0e9f5075539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d408e98308f2ec4f2ee7c3f221aacc8') in 0.0173722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00004.png
+  artifactKey: Guid(fbe9787c17885194dab0ba40f93fad39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00004.png using Guid(fbe9787c17885194dab0ba40f93fad39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaf617daa7fde328946832ed5f6d29af') in 0.0194604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00064.png
+  artifactKey: Guid(a9798b1791fbaa34c8c8ad125baa9198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00064.png using Guid(a9798b1791fbaa34c8c8ad125baa9198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ef56cdb8d0ccfe297a911852817a32d') in 0.0183795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00035.png
+  artifactKey: Guid(349b2edf12b0529429140bb4faa85933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00035.png using Guid(349b2edf12b0529429140bb4faa85933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '097785101b71ed612029b56f37d91795') in 0.0259658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00004.png
+  artifactKey: Guid(8ca0b30327f0a564bbe58a33516cc5c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00004.png using Guid(8ca0b30327f0a564bbe58a33516cc5c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2b4e41d1e6b96c0b40f713aaef4b910') in 0.0176797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/Plant Animations/PlantJump/JumpPlant_00008.png
+  artifactKey: Guid(0983c54a59fafb14ba382f43d5031448) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/PlantJump/JumpPlant_00008.png using Guid(0983c54a59fafb14ba382f43d5031448) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1493f5c1ee1d1b1dece6230902dc9a4c') in 0.0171648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00016.png
+  artifactKey: Guid(ac0cba16c991ab242a18b01f6f94f5c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00016.png using Guid(ac0cba16c991ab242a18b01f6f94f5c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1b0b22995e8bb09f38ad5623f9f3373') in 0.0185563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00036.png
+  artifactKey: Guid(09eddfd6342adb443bec43d877f38e4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00036.png using Guid(09eddfd6342adb443bec43d877f38e4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '175b6ae30d74817b99eb845a750d680a') in 0.0207732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00015.png
+  artifactKey: Guid(2a6777653e10bcc4b8542c9a5dc53c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00015.png using Guid(2a6777653e10bcc4b8542c9a5dc53c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28fd3aa186b94a3f717c87c071608f47') in 0.0196569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00003.png
+  artifactKey: Guid(d12f9167b6b47514aa7ee6e555c1568a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00003.png using Guid(d12f9167b6b47514aa7ee6e555c1568a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c462ce322fcaa17f85851bc5c9b06a8') in 0.0287113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00069.png
+  artifactKey: Guid(615671b0618e08f4db2951f3dba3cd2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00069.png using Guid(615671b0618e08f4db2951f3dba3cd2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8a560be9b3b7d884f68f2752f670de3') in 0.0186349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00017.png
+  artifactKey: Guid(aaa32269da5b0c042ab122c34f5aedac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00017.png using Guid(aaa32269da5b0c042ab122c34f5aedac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49d89a79922f978ab35cb0e6cab297a3') in 0.0193896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00051.png
+  artifactKey: Guid(4cdaa6762ab26ea4eb51e4e849411ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00051.png using Guid(4cdaa6762ab26ea4eb51e4e849411ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18e80d991b501a3e3608eb517292af1c') in 0.0245078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00012.png
+  artifactKey: Guid(688339641f6361d48aab087164085dc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00012.png using Guid(688339641f6361d48aab087164085dc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0df706a11476f62be5621b7e60fa19dc') in 0.0185234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00007.png
+  artifactKey: Guid(3a91e70f0332d174d9f754eade7d2a31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00007.png using Guid(3a91e70f0332d174d9f754eade7d2a31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9edc50d77f06bdb8fdbf3bc93916f843') in 0.0176155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00072.png
+  artifactKey: Guid(b749b2c84c91c6844999025de2e17e4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00072.png using Guid(b749b2c84c91c6844999025de2e17e4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a71aee7acf8ebf9a87e4287a2556e2d9') in 0.017923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00045.png
+  artifactKey: Guid(e65c120db8fc60a4791a0936bc2737ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00045.png using Guid(e65c120db8fc60a4791a0936bc2737ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '096ad6b2fa1b098a2a9f13aa17b7a973') in 0.0186416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00061.png
+  artifactKey: Guid(6034b09e4aceada4d98dcecf80788c61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00061.png using Guid(6034b09e4aceada4d98dcecf80788c61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fc08bf0e7317d80aae81bfe3a1f1e84') in 0.0177761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00031.png
+  artifactKey: Guid(75f05d47ffa834847bbd2839a3d8cb83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00031.png using Guid(75f05d47ffa834847bbd2839a3d8cb83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe5326d8221cc9b918dd464111bd747f') in 0.0172216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00056.png
+  artifactKey: Guid(a4c16929bd242e34181eaca49e4ab361) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00056.png using Guid(a4c16929bd242e34181eaca49e4ab361) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1342214642242e0c4056e189e0582ed') in 0.0195253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00059.png
+  artifactKey: Guid(f29daeb893cb3e54ab07db6e395d454d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00059.png using Guid(f29daeb893cb3e54ab07db6e395d454d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e35649f44e66b5783e5f94c9b9f86c42') in 0.0232689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00033.png
+  artifactKey: Guid(1acd8cbd65c2ea140a5a3f669455e12e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00033.png using Guid(1acd8cbd65c2ea140a5a3f669455e12e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef86bc327a559d98b9f805ead7d9a2ae') in 0.0169652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5/Plant5_00048.png
+  artifactKey: Guid(686d60e405a6f764dadb1331f3449802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5/Plant5_00048.png using Guid(686d60e405a6f764dadb1331f3449802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4965fae98d096df71e1f74ee26fe821') in 0.0189064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00026.png
+  artifactKey: Guid(0c412beb46b1ebe43800b98e97546ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00026.png using Guid(0c412beb46b1ebe43800b98e97546ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '909f27a85003a753733ed027503477a8') in 0.017503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00032.png
+  artifactKey: Guid(e875c5f1f555f7b49a54b3bc7cdeffcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00032.png using Guid(e875c5f1f555f7b49a54b3bc7cdeffcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47826b92e1808f2cd6a1b62c4d51275e') in 0.0214897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5/Plant5_00044.png
+  artifactKey: Guid(c4e0e1a051e45d44798c9c7c3d0c946b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5/Plant5_00044.png using Guid(c4e0e1a051e45d44798c9c7c3d0c946b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06be87c7e668c4ed5068675cb2a060f6') in 0.0191655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00049.png
+  artifactKey: Guid(66a140982fd0be745b24821e95331d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00049.png using Guid(66a140982fd0be745b24821e95331d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '407a81d817b56fd0b73d169c7190e5e0') in 0.0252461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00034.png
+  artifactKey: Guid(5e1ec48a86c1df646aa7d5e530385ade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00034.png using Guid(5e1ec48a86c1df646aa7d5e530385ade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b88bdf493e58d1e10fda71fc3c5ce1af') in 0.0209828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00027.png
+  artifactKey: Guid(219a23b07a1b80a418fc9df909fbb8b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00027.png using Guid(219a23b07a1b80a418fc9df909fbb8b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b859ea983af4a2e7e51d2e6439345e87') in 0.0193266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00032.png
+  artifactKey: Guid(59b89303c9be36c44a16a0cfed897a0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00032.png using Guid(59b89303c9be36c44a16a0cfed897a0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32b0e3d9e3d019c6cfc9a142ce535f97') in 0.0186894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00035.png
+  artifactKey: Guid(1a48e66d695afd34c98ab60c78aa66d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00035.png using Guid(1a48e66d695afd34c98ab60c78aa66d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1031a3441f00318a3db18b54732e84a') in 0.0179266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00001.png
+  artifactKey: Guid(f0a10e4b88bbe6d4dae33cd3727697ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00001.png using Guid(f0a10e4b88bbe6d4dae33cd3727697ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df366fcc74866bd0329e49ab22ac74ae') in 0.0175424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00039.png
+  artifactKey: Guid(d4a9633b1531422448173901a23d2bc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00039.png using Guid(d4a9633b1531422448173901a23d2bc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '528d6972d914f3f0763093401435f1a3') in 0.0184937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00031.png
+  artifactKey: Guid(36082e19382af79408e482d12b28ed73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00031.png using Guid(36082e19382af79408e482d12b28ed73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37145d996d5d3485fbc7602e343fc364') in 0.0183158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00019.png
+  artifactKey: Guid(492c6c73086cde54e97d067f47918e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00019.png using Guid(492c6c73086cde54e97d067f47918e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '593cd6c372e6593911c4229db5ffcafd') in 0.0181544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00006.png
+  artifactKey: Guid(7a79c9cd14de730438505394f8d2428a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00006.png using Guid(7a79c9cd14de730438505394f8d2428a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97d122ddb9cd4c7368aabb2075eef473') in 0.0181766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00005.png
+  artifactKey: Guid(3c93395410ceefb419eebfe8a7c3d91d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/PlantJump2/JumpPlant 2_00005.png using Guid(3c93395410ceefb419eebfe8a7c3d91d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a54696e632902c2eeaa1dc2680bc568') in 0.0196171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00044.png
+  artifactKey: Guid(ccebcbbcc566f8f4ba8279b03bd9a06f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00044.png using Guid(ccebcbbcc566f8f4ba8279b03bd9a06f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58e90a5af86a53fd05380ad6ded90f41') in 0.0261023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00013.png
+  artifactKey: Guid(8c9feef56be9df148b17323a81bff824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00013.png using Guid(8c9feef56be9df148b17323a81bff824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b9f444b67c1188036b45f47a6ed0efe') in 0.0168985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00067.png
+  artifactKey: Guid(d350a23e847330641b6cb1c88350351e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00067.png using Guid(d350a23e847330641b6cb1c88350351e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '588a38e9eba3093ad44df0d5f205dcd6') in 0.0171226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00041.png
+  artifactKey: Guid(60c74803f085236418ce2ae56cd2a2a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00041.png using Guid(60c74803f085236418ce2ae56cd2a2a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3143fe8d1596a6ff1af2572e1a6a625') in 0.0195393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00070.png
+  artifactKey: Guid(2ca4a4bfc78130f4baca4232dc59dc5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00070.png using Guid(2ca4a4bfc78130f4baca4232dc59dc5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f671c6b36c1ea919a9773d5ec27a1f08') in 0.0179057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00002.png
+  artifactKey: Guid(1453298a1642686409cfdec3e0c76c57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00002.png using Guid(1453298a1642686409cfdec3e0c76c57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f9e3efbb502865ccc750639597b357b') in 0.0167143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00014.png
+  artifactKey: Guid(dfdb94f0c1b145040a4b40a40eb9ab37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00014.png using Guid(dfdb94f0c1b145040a4b40a40eb9ab37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0892697bb689f12a4a7de6f3ce763b97') in 0.0176491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00049.png
+  artifactKey: Guid(1e3057e106e145e458e36e8d7ab90ede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00049.png using Guid(1e3057e106e145e458e36e8d7ab90ede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c151096e0dae6f645c54a2c09169677a') in 0.018409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 6/Plant6_00007.png
+  artifactKey: Guid(d593eb248a111ae499795179c3852d8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 6/Plant6_00007.png using Guid(d593eb248a111ae499795179c3852d8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c5bc341194a75e51199162a4c6a3011') in 0.0289026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 1/Plant1_00066.png
+  artifactKey: Guid(3b351d6d414b07b44a6998ec0a933f8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 1/Plant1_00066.png using Guid(3b351d6d414b07b44a6998ec0a933f8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '213b1d11185d7145a01320f945d7f665') in 0.0205238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00004.png
+  artifactKey: Guid(5688bfa6734a78a4c9ca98c7a6e9a584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00004.png using Guid(5688bfa6734a78a4c9ca98c7a6e9a584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70a323a8de75319c49ed7d928133e01f') in 0.0203231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00014.png
+  artifactKey: Guid(ba9a199a296e03c4798c4da7bf51da3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00014.png using Guid(ba9a199a296e03c4798c4da7bf51da3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4275eae73fbc8e0ec40646c02e70f95d') in 0.019936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00033.png
+  artifactKey: Guid(aaca35a5ea9fa0649838e59d4b210da8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00033.png using Guid(aaca35a5ea9fa0649838e59d4b210da8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b0cc3c366436de4be95b35c29b98109') in 0.0184138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00027.png
+  artifactKey: Guid(fbc6788d63953c243a37675b8d432085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00027.png using Guid(fbc6788d63953c243a37675b8d432085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '066ddbb80a9376107ea1d2212fa17fcd') in 0.0207713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00085.png
+  artifactKey: Guid(ea3697f3962873743ba99af2a5e65848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00085.png using Guid(ea3697f3962873743ba99af2a5e65848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f1120f3bdaf5c45f7dea58db2aacfec') in 0.0192629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 5/Plant5_00049.png
+  artifactKey: Guid(70dbf1954d9253143a21e8f28236727a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 5/Plant5_00049.png using Guid(70dbf1954d9253143a21e8f28236727a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e924a9c78e9327e25ff753f1e0a5275b') in 0.0175201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00009.png
+  artifactKey: Guid(32127429273371f47a6bf1f59a0e11a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 8 Poison/PlantPosion_00009.png using Guid(32127429273371f47a6bf1f59a0e11a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de1e54060553adeb75dcc475b4b7bc16') in 0.0169689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00031.png
+  artifactKey: Guid(b6bcaee3c6b13a14faf202aa090fe44c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00031.png using Guid(b6bcaee3c6b13a14faf202aa090fe44c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e20a3570f5b157cdb82d22ca9b2a952') in 0.0221443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00037.png
+  artifactKey: Guid(1785c44b1a921f44d83d1a62a71ff42d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00037.png using Guid(1785c44b1a921f44d83d1a62a71ff42d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1c27bc45c8fe5082ff18940c232e078') in 0.0223448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00086.png
+  artifactKey: Guid(03b627721f5fd914b9ca0501375f94d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00086.png using Guid(03b627721f5fd914b9ca0501375f94d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '386853796142efbf165f05472a1d9213') in 0.0190386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00059.png
+  artifactKey: Guid(7fad8782ea7c4a44ea47189de1441199) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00059.png using Guid(7fad8782ea7c4a44ea47189de1441199) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9009af0e0bbe64a2673c86df7b4045f4') in 0.0175424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00020.png
+  artifactKey: Guid(caafefc970092004da1a0c90b908c69a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00020.png using Guid(caafefc970092004da1a0c90b908c69a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7cb6004e60753b5d9ba4e94a6463229') in 0.0183876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Plant Animations/Plant 7/Plant7_00018.png
+  artifactKey: Guid(2732a2ecfdc4e2d4bb55adc400f17558) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 7/Plant7_00018.png using Guid(2732a2ecfdc4e2d4bb55adc400f17558) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f212e2807251125eb18af0051d8ebfca') in 0.0176365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3
+  artifactKey: Guid(64dbb1b3cf08f574e9e1320d5c258fd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3 using Guid(64dbb1b3cf08f574e9e1320d5c258fd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2106dc1c10b88e235b6a6c23aff358e9') in 0.0130768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00045.png
+  artifactKey: Guid(68889ceb9132c8e41a85c740deeed9f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00045.png using Guid(68889ceb9132c8e41a85c740deeed9f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3be02f880d552e8b5b2b3c29b78a2177') in 0.019535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00016.png
+  artifactKey: Guid(5122e005d47558f42b5177cf6c4212f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant Wind 1/Plant Wind 1_00016.png using Guid(5122e005d47558f42b5177cf6c4212f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbb60d0e0def2626d6f7f23dec2b6a0d') in 0.0178603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/Plant Animations/Plant 4/Plant4_00059.png
+  artifactKey: Guid(3defb24c3f3d22e4e8eb888bf1f86d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 4/Plant4_00059.png using Guid(3defb24c3f3d22e4e8eb888bf1f86d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '184702684025be4d3662eb66cfb40be0') in 0.0195182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00075.png
+  artifactKey: Guid(f75ba1140d69e194d9b4cdea0039efd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00075.png using Guid(f75ba1140d69e194d9b4cdea0039efd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e850decb0457a5f61fddf38737b5a1db') in 0.0181323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00030.png
+  artifactKey: Guid(fed2d5602f7d66a4993f8a017960de13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00030.png using Guid(fed2d5602f7d66a4993f8a017960de13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42b479ba9d8663979022042e754a6e24') in 0.0189062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00039.png
+  artifactKey: Guid(f29ea45093e55b8439047dc3f5d001ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/BlueFlower2/BluePlantClosed_00039.png using Guid(f29ea45093e55b8439047dc3f5d001ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9eb30303dfe3f51517fcf05e2da017c7') in 0.0248203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2/Plant2_00078.png
+  artifactKey: Guid(b4bcbadeba1460f46b46799b0f8f7fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2/Plant2_00078.png using Guid(b4bcbadeba1460f46b46799b0f8f7fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4145dba05c3ed638f31fbc1601ecae07') in 0.0228107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/Plant Animations/Plant 3/Plant3_00055.png
+  artifactKey: Guid(1cba43a437bd0ff48afb810dc9466812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 3/Plant3_00055.png using Guid(1cba43a437bd0ff48afb810dc9466812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b749d91e24c113d9ca9a71b81484c69') in 0.0186831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/Plant Animations/Plant 2
+  artifactKey: Guid(51a28bff931c92447af8a0e57811a4cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Plant Animations/Plant 2 using Guid(51a28bff931c92447af8a0e57811a4cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ec3ec1cc0a052093b3a6382da38e683') in 0.0111589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.086818 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00052.png
+  artifactKey: Guid(5abdd8c3d7258ea489239ecad4a03d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00052.png using Guid(5abdd8c3d7258ea489239ecad4a03d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c0a8c568a33a7a1116c697ede9030b0') in 0.0237207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00059.png
+  artifactKey: Guid(5950309599e22f34e947c410a81677f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00059.png using Guid(5950309599e22f34e947c410a81677f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ec070adc7dd093eb22ff46b434a5d99') in 0.0181448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00056.png
+  artifactKey: Guid(6f35790bad110564ba2021f4a7f80670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Plant Animations/BlueFlower1/BlueFlower_00056.png using Guid(6f35790bad110564ba2021f4a7f80670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fada39dceb45cc1f98e8a317fab92d8') in 0.0179017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+

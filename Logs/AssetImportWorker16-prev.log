@@ -1,0 +1,770 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.1f1-f56f53296c2c' branch; Version is '6000.3.1f1 (37142da19a94) revision 3609645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16200 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huseyn" at "2026-04-17T19:09:48.5306994Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-17T19:09:48Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+52413
+-licensingIpc
+LicenseClient-Huseyn
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson
+C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [37376]  Target information:
+
+Player connection [37376]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1606867945 [EditorId] 1606867945 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P8DN92Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37376]  * "[IP] 192.168.0.200 [Port] 0 [Flags] 2 [Guid] 1606867945 [EditorId] 1606867945 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P8DN92Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.1f1 (37142da19a94)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Huseyn/Desktop/New folder (2)/PlatformGameForLesson/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              2cf06de253b14191b6d6b121e6d02fa4
+  Correlation Id:          b6c0715d3a820be36b2f7da351ade35c
+  External correlation Id: 648653020676907330
+  Machine Id:              tv/gQBm3jDMfnTwrqsG2ELGBXbM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Huseyn" (connect: 0.00s, validation: 0.00s, handshake: 1.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Huseyn-notifications" at "2026-04-17T19:09:49.6244988Z"
+[Licensing::Module] Licensing Background thread has ended after 1.09s
+[Licensing::Module] Licensing is initialized (took 0.16s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966791570336-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.164672 seconds.
+- Loaded All Assemblies, in  0.593 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 232 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1229ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (217ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (168ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (316ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.847 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1611ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6876 unused Assets / (4.3 MB). Loaded Objects now: 7711.
+Memory consumption went from 157.7 MB to 153.3 MB.
+Total: 9.722500 ms (FindLiveObjects: 0.809300 ms CreateObjectMapping: 0.691000 ms MarkObjects: 5.934900 ms  DeleteObjects: 2.286000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25808.547413 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_1.asset
+  artifactKey: Guid(70338929d7ed7454d8d82de817c6de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_1.asset using Guid(70338929d7ed7454d8d82de817c6de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b8b5b753aa3ed812bf71d78796b5896') in 0.1866037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.831986 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_1.asset
+  artifactKey: Guid(70338929d7ed7454d8d82de817c6de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_1.asset using Guid(70338929d7ed7454d8d82de817c6de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c30056e4471157daf299debbaccb4d81') in 0.0189105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_9.asset
+  artifactKey: Guid(e590b2f0218e5f146afce62422f69b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_9.asset using Guid(e590b2f0218e5f146afce62422f69b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd487916321d18447292779d13345df5b') in 0.0149135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_8.asset
+  artifactKey: Guid(45cbcdde19384584497ca0314bf1e723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_8.asset using Guid(45cbcdde19384584497ca0314bf1e723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aea618edd8ae8a20d6884e46cd32746e') in 0.0147855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.669637 seconds.
+  path: Assets/Tiles/Mossy - TileSet_1.asset
+  artifactKey: Guid(ea296b7b3f02ae444b78cc0dd1ae837b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_1.asset using Guid(ea296b7b3f02ae444b78cc0dd1ae837b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d7cd704ea307d5f5540d9c79ebbd66f') in 0.0117807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Mossy - TileSet_10.asset
+  artifactKey: Guid(0f79acb81e34d804fb8f2f1062b9006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_10.asset using Guid(0f79acb81e34d804fb8f2f1062b9006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5bf8fae992a00789fb36db819b386fb') in 0.0157574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Mossy - TileSet_45.asset
+  artifactKey: Guid(38ca647633329d84b8c186fac4d05e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_45.asset using Guid(38ca647633329d84b8c186fac4d05e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd848a34a36fcf054fe336554ea479c') in 0.0211824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Mossy - TileSet_20.asset
+  artifactKey: Guid(25125b4d8aea40d4a81676623b5f488a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_20.asset using Guid(25125b4d8aea40d4a81676623b5f488a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b75138c8666b05161962397b17ca9225') in 0.0183344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Mossy - TileSet_44.asset
+  artifactKey: Guid(4dc458fceeef60f48b7d5e6a932d9d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_44.asset using Guid(4dc458fceeef60f48b7d5e6a932d9d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44c8716856295acab189e55017f2ef1b') in 0.0190343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Mossy - TileSet_43.asset
+  artifactKey: Guid(44509c7c57bcb7d49bab12572db2a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_43.asset using Guid(44509c7c57bcb7d49bab12572db2a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1996ac3ba621189737f69d08e2fa6a93') in 0.0179147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Mossy - TileSet_2.asset
+  artifactKey: Guid(e98eea5cbedfe844fa7262110ebd6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_2.asset using Guid(e98eea5cbedfe844fa7262110ebd6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed975fd5f077f0b7ed9dd1c2c21f5ae2') in 0.0117203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Mossy - TileSet_14.asset
+  artifactKey: Guid(32963773b1267f54581d821ed63e6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_14.asset using Guid(32963773b1267f54581d821ed63e6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7ac06cbf80ff6c2180c95b89257b6b') in 0.0161122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Mossy - TileSet_8.asset
+  artifactKey: Guid(0c5a4cd242e1e7347a7e5b11c77f4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_8.asset using Guid(0c5a4cd242e1e7347a7e5b11c77f4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9b6c5bdc5d1cd25490165179f8c1f8') in 0.0078696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Mossy - TileSet_19.asset
+  artifactKey: Guid(57c290e252f39b441b982edc7907e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_19.asset using Guid(57c290e252f39b441b982edc7907e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499a0f4ffa75c5d659abe0b317307dcb') in 0.020159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Mossy - TileSet_21.asset
+  artifactKey: Guid(287e9ee5cedaff34189e3405f2f3e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_21.asset using Guid(287e9ee5cedaff34189e3405f2f3e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51b2db1e0bdbe2282267ffb0b06b7ff') in 0.0153058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Mossy - TileSet_16.asset
+  artifactKey: Guid(93137aeb042216246a968b76188db04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_16.asset using Guid(93137aeb042216246a968b76188db04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d6554c4cafa97d9faca80390639ca2') in 0.0154229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Mossy - TileSet_3.asset
+  artifactKey: Guid(4454b92f6c58c2a49bca80ceba7942f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_3.asset using Guid(4454b92f6c58c2a49bca80ceba7942f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b426ccf450b5a89e043d69f01572774') in 0.0167354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Mossy - TileSet_12.asset
+  artifactKey: Guid(fbc8df327dcbb0b46a5f7d1b89fe7362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_12.asset using Guid(fbc8df327dcbb0b46a5f7d1b89fe7362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09ce929aa39639abbe3e82d40141f520') in 0.0157355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Mossy - TileSet_36.asset
+  artifactKey: Guid(fc9e1507243510646b47ab492b5bbdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_36.asset using Guid(fc9e1507243510646b47ab492b5bbdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '077d29b713d210c069d5a2c5b0f93ebb') in 0.0151741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Mossy - TileSet_41.asset
+  artifactKey: Guid(f37834d1d16dde344956b75929c3ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_41.asset using Guid(f37834d1d16dde344956b75929c3ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f3ef1efc14d68daddba3a3431a1bf78') in 0.0148689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Mossy - TileSet_38.asset
+  artifactKey: Guid(46603df74d399454886bcc65568f2075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_38.asset using Guid(46603df74d399454886bcc65568f2075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2831ca7d76e0ea5a9c92f40dc3aed3f2') in 0.0163009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Mossy - TileSet_13.asset
+  artifactKey: Guid(575c835767981764dbb3271669e2f41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_13.asset using Guid(575c835767981764dbb3271669e2f41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7c20faa08bbd666b977326744224a10') in 0.0156051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Mossy - TileSet_30.asset
+  artifactKey: Guid(5ad6b44ea4f35094a8b367951ee9428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_30.asset using Guid(5ad6b44ea4f35094a8b367951ee9428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b373f6553516a7e65f85ea418e6e2c9') in 0.0144553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Mossy - TileSet_24.asset
+  artifactKey: Guid(3ef57649a4dd65e47843d12949293307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_24.asset using Guid(3ef57649a4dd65e47843d12949293307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46763cc9c26c8716dd72fb3bcfb844b4') in 0.0150185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Mossy - TileSet_26.asset
+  artifactKey: Guid(a60a5137614fdcd45917d5af8e9fd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_26.asset using Guid(a60a5137614fdcd45917d5af8e9fd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03a080a265df5a42f52506982d8de9dd') in 0.0176775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Mossy - TileSet_23.asset
+  artifactKey: Guid(6e61b0ac3de156c40b42bf475af46904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_23.asset using Guid(6e61b0ac3de156c40b42bf475af46904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c030d3609f62b3f3fecc233a7a8f49b') in 0.0144632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Mossy - TileSet_9.asset
+  artifactKey: Guid(3c174a9abbd5356438949e8ae704b58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_9.asset using Guid(3c174a9abbd5356438949e8ae704b58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa948df353130463a8f8f002a678304f') in 0.0064329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Mossy - TileSet_28.asset
+  artifactKey: Guid(aa1552ea8a84dff49b4d8c435ebb1645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_28.asset using Guid(aa1552ea8a84dff49b4d8c435ebb1645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1c4408b8da0019b2489fbc9753460c3') in 0.016409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Mossy - TileSet_39.asset
+  artifactKey: Guid(a8dfe531059b1fb42aee88759adf534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Mossy - TileSet_39.asset using Guid(a8dfe531059b1fb42aee88759adf534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '748ed3596fa9a33d00835ffe296d76e7') in 0.0150726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.331581 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19ef31e445d10432f441cd41e2e2b6f6') in 0.0599211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png
+  artifactKey: Guid(e70f554c1bf9906438b75c9e5fc3cec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png using Guid(e70f554c1bf9906438b75c9e5fc3cec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '5089588285aa1b85a6daa0a46c8e2902') in 0.0887002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_3.asset
+  artifactKey: Guid(75d5e412ac620834c831be9a668aac0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_3.asset using Guid(75d5e412ac620834c831be9a668aac0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e6162016baa395e11da50726744180b') in 0.045874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png
+  artifactKey: Guid(df8da1384c9354a4581e57f91247a3c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png using Guid(df8da1384c9354a4581e57f91247a3c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abb8a4804ee7cde901a5e5fc8db82d0e') in 0.0266966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png
+  artifactKey: Guid(347f3bb8715221a47ac24d03595a968f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png using Guid(347f3bb8715221a47ac24d03595a968f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7414ac224a2d6c37c728e6e558ab870') in 0.0287913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png
+  artifactKey: Guid(72005f76df9c217429809fd53ff06729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png using Guid(72005f76df9c217429809fd53ff06729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b973d9c1dbceb8414ffb33ef0c7ad54') in 0.0253318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png
+  artifactKey: Guid(0f42a31a03d84ac47bd4db3720d8eb42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png using Guid(0f42a31a03d84ac47bd4db3720d8eb42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '973872f04b790e1fc52f7add86f64f75') in 0.0266788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png
+  artifactKey: Guid(1973f76caa1c31b49b5e52259affdacf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png using Guid(1973f76caa1c31b49b5e52259affdacf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23de25417010fc68c3e66fddf775d648') in 0.0225495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png
+  artifactKey: Guid(393e9c9e6d53f634d8ecd16090e15741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png using Guid(393e9c9e6d53f634d8ecd16090e15741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b0cd06b7d830bf6447e7bf125179d65') in 0.032626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animations/Jump.anim
+  artifactKey: Guid(3f8bb7ba664c96f42a08d00516f0811e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Jump.anim using Guid(3f8bb7ba664c96f42a08d00516f0811e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a45ad00caddc8c91221e96a22b9f9491') in 0.0284618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.770583 seconds.
+  path: Assets/Palettes/Default.prefab
+  artifactKey: Guid(b4fec0e9cac9f0a43acb62e0b8995e72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palettes/Default.prefab using Guid(b4fec0e9cac9f0a43acb62e0b8995e72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '312799c99a20d2250a819ff96852e491') in 0.0198601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.701922 seconds.
+  path: Assets/Tiles/Mossy - TileSet_34.asset
+  artifactKey: Guid(c875cbfffd18f0d4ca8f25c2288f2b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_34.asset using Guid(c875cbfffd18f0d4ca8f25c2288f2b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f5ba7bbe131e16f62e8ec17bb61aef6') in 0.0170551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tiles/Mossy - TileSet_3.asset
+  artifactKey: Guid(4454b92f6c58c2a49bca80ceba7942f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_3.asset using Guid(4454b92f6c58c2a49bca80ceba7942f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92c3e46d95c90e74ca2bfd61a2ec60ba') in 0.0160605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Mossy - TileSet_40.asset
+  artifactKey: Guid(8209e74007000d4489993cc0925622a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_40.asset using Guid(8209e74007000d4489993cc0925622a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d2b657d54b93056006ccd4f2055952e') in 0.0151858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Mossy - TileSet_44.asset
+  artifactKey: Guid(4dc458fceeef60f48b7d5e6a932d9d7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_44.asset using Guid(4dc458fceeef60f48b7d5e6a932d9d7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba53fe494c991c912805f52f123fe8e7') in 0.014814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Mossy - TileSet_1.asset
+  artifactKey: Guid(ea296b7b3f02ae444b78cc0dd1ae837b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_1.asset using Guid(ea296b7b3f02ae444b78cc0dd1ae837b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e54ffd6f8b98efd1e31d364351a3ad7b') in 0.0166416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Mossy - TileSet_21.asset
+  artifactKey: Guid(287e9ee5cedaff34189e3405f2f3e51d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_21.asset using Guid(287e9ee5cedaff34189e3405f2f3e51d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5126312e2abd6b4937890fccf79da93') in 0.0183811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Mossy - TileSet_41.asset
+  artifactKey: Guid(f37834d1d16dde344956b75929c3ca2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_41.asset using Guid(f37834d1d16dde344956b75929c3ca2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '703f510bf73d9c0fb2c1b04668f045a5') in 0.0154124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Mossy - TileSet_17.asset
+  artifactKey: Guid(af98e9adad6aa1b47a3271975485e629) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_17.asset using Guid(af98e9adad6aa1b47a3271975485e629) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1e71f04d74113dee9e9301bf97671e0') in 0.0167858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Mossy - TileSet_39.asset
+  artifactKey: Guid(a8dfe531059b1fb42aee88759adf534c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_39.asset using Guid(a8dfe531059b1fb42aee88759adf534c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f27e1d9008bc130548e99a719a89bd8') in 0.016146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Mossy - TileSet_38.asset
+  artifactKey: Guid(46603df74d399454886bcc65568f2075) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_38.asset using Guid(46603df74d399454886bcc65568f2075) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59fd3645b93ca2299bbd14bdaad3ed56') in 0.0147386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Mossy - TileSet_11.asset
+  artifactKey: Guid(9ea5982b53367834299c65554b627cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_11.asset using Guid(9ea5982b53367834299c65554b627cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca73a575a111d80f0c94854da3e4f6db') in 0.0179958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Mossy - TileSet_8.asset
+  artifactKey: Guid(0c5a4cd242e1e7347a7e5b11c77f4ede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_8.asset using Guid(0c5a4cd242e1e7347a7e5b11c77f4ede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2afac4f1313bb5775309e7a6d2f80be') in 0.0182948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Mossy - TileSet_29.asset
+  artifactKey: Guid(6e3e08662aa98e74ca62c71c77e49728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_29.asset using Guid(6e3e08662aa98e74ca62c71c77e49728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d4a7befecd58720dd797cc6ea8f0f5a') in 0.0152291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Mossy - TileSet_28.asset
+  artifactKey: Guid(aa1552ea8a84dff49b4d8c435ebb1645) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_28.asset using Guid(aa1552ea8a84dff49b4d8c435ebb1645) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e93f28aa9a4e054d229aa3de73374b98') in 0.018045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Mossy - TileSet_4.asset
+  artifactKey: Guid(c5a599351490d90469d80d70b78fd4c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_4.asset using Guid(c5a599351490d90469d80d70b78fd4c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9e1d5ab6b51b3dfb3f522d882fe2f0e') in 0.0170769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Mossy - TileSet_7.asset
+  artifactKey: Guid(bd125fe9d64f0614f893ac593128cfca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_7.asset using Guid(bd125fe9d64f0614f893ac593128cfca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee09c4924d782f2ed9331960e82ab758') in 0.0166006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Mossy - TileSet_2.asset
+  artifactKey: Guid(e98eea5cbedfe844fa7262110ebd6b3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_2.asset using Guid(e98eea5cbedfe844fa7262110ebd6b3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '638469196f8cb8d35409048b87ee291c') in 0.016711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Mossy - TileSet_26.asset
+  artifactKey: Guid(a60a5137614fdcd45917d5af8e9fd37e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_26.asset using Guid(a60a5137614fdcd45917d5af8e9fd37e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fca03a53b4bf2fb505aa96363ca848bf') in 0.0158772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Mossy - TileSet_35.asset
+  artifactKey: Guid(0a1c35d18bc4ba3478a5e9d9970a0fc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_35.asset using Guid(0a1c35d18bc4ba3478a5e9d9970a0fc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b463a1c823967727d3233a35d025e133') in 0.01452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Mossy - TileSet_46.asset
+  artifactKey: Guid(f91e7b62a11da004db7638ed7805bba9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_46.asset using Guid(f91e7b62a11da004db7638ed7805bba9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb62b81c22d881ebc2ff785d2ac97bbe') in 0.0144181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Mossy - TileSet_27.asset
+  artifactKey: Guid(b8b38b4a2555cff4784f895bbc2b3cd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_27.asset using Guid(b8b38b4a2555cff4784f895bbc2b3cd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30377757217817f3952ad09c16e692d2') in 0.0149265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Mossy - TileSet_42.asset
+  artifactKey: Guid(267ca9a6ef25a6a40ad8354441821998) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_42.asset using Guid(267ca9a6ef25a6a40ad8354441821998) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c7da2f9a3c887597a028a673f5c688c') in 0.0136255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Mossy - TileSet_16.asset
+  artifactKey: Guid(93137aeb042216246a968b76188db04c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_16.asset using Guid(93137aeb042216246a968b76188db04c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ad180b1c43cbf1ab58ff5a7a9c37b12') in 0.014475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Mossy - TileSet_25.asset
+  artifactKey: Guid(2759adbf400ca744aa0fd46497a61152) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_25.asset using Guid(2759adbf400ca744aa0fd46497a61152) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83c641eef97e0914493a554434c04cf3') in 0.0160789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Mossy - TileSet_0.asset
+  artifactKey: Guid(2e72bdd58c38d0b409de1e0cee027240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Mossy - TileSet_0.asset using Guid(2e72bdd58c38d0b409de1e0cee027240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55a2ad389cb83c20af9925d2dc24e345') in 0.01584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.437822 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_2.asset
+  artifactKey: Guid(ddcb38f9bbc03b348b6ee0941a18bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_2.asset using Guid(ddcb38f9bbc03b348b6ee0941a18bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d236778453578eac96466b1421d2a40') in 0.0178951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_7.asset
+  artifactKey: Guid(add0b9ad7e3857e48afb7cfb44fe8907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_7.asset using Guid(add0b9ad7e3857e48afb7cfb44fe8907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '668e937e9747bac0ac25881b384f8ebb') in 0.0296522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/Mossy Tileset/Mossy - TileSet_10.asset
+  artifactKey: Guid(864a69fe2b2cb134d8a3690ba00bce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Mossy Tileset/Mossy - TileSet_10.asset using Guid(864a69fe2b2cb134d8a3690ba00bce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60a21c186ece5e9a6ac04673b724bc8f') in 0.0198896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
